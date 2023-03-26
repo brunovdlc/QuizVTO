@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta property="og:image" content="quizweb.png">
+    <meta property="og:image:type" content="quizweb.png">
+    <meta property="og:image:width" content="403">
+    <meta property="og:image:height" content="237">
+   <link rel="stylesheet" href="https://kaiotrajano.github.io/Quiz/style.css">
+    <script src="https://kit.fontawesome.com/95442199ab.js" crossorigin="anonymous"></script>
+    <title>Quiz</title>
+</head>
+
+    <body>
+<nav>
+    <h1 class="mark">QuizVTO</h1>
+    <span><a href="xat.com/vto" target="_blank">BT</a></span>
+</nav>
+
+<div class="finishon" id="playername">
+    <h3>Bem vindo ao <br> <span id="nameweb">Quizvto &#128512</span></h3>
+     <div class="roww">
+     <input id="playernameinput" placeholder="Seu nome é" autocomplete="off">
+     <button class="jogardenovo" id="começar"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+</div>  
+
+
+<div class="finishoff" id="finish">
+  <p>Parabéns <span id="name"></span>, Quiz finalizado!</p>
+   
+  <p class="pa">Perguntas acertadas</p>
+
+  <p id="pts"></p>
+
+  <p class="pts">Nivel de Desempenho:</p>
+  <p id="nivel"></p>
+  <button class="jogardenovo" id="voltarinicio">Voltar ao inicio <i class="fa-solid fa-house"></i></button>
+  <button class="jogardenovo" id="jogardenovo">Jogar novamente <i class="fa-solid fa-arrow-rotate-left"></i></button>
+</div>
+    
+<div class="barbox">
+    <span class="porcentagem" id="porcentagem"></span>
+</div>
+<div class="bardiv" id="bardiv">
+ <div class="bar" id="bar">
+ </div>
+</div>
+
+<div class="boxquizes">
+
+<h1 id="titulo"></h1>
+
+<div class="quadrodequizes" id="quadrodequizes">
+
+<div class="quizes">
+<img class="quizesimage" src="programingteste.png" alt="">
+<div><p class="titulo">VTO</p>
+    <p class="description">Conhece o vto e a galera?  bora ver.., não esquece de tirar print do seu desempenho e mostrar no xat</p>
+    <span class="status"></span>
+    <button class="selectquiz" id="programingbutton">Iniciar Quiz</button>
+    <input type="checkbox" id="programingcheckbox">
+</div>
+
+</div>
+<div class="quizes">
+    <img class="quizesimage" src="medical-logo.jpg" alt="">
+    <div>
+        <p class="titulo">Medicina</p>
+        <p class="description">Se você leva jeito para medicina então esse é o quiz feito para você</p>
+        <span class="status"></span>
+    <button class="selectquiz" id="medicine">Iniciar Quiz</button>
+     <input type="checkbox" id="medicinecheckbox">
+    </div>
+</div>
+<div class="quizes">
+    <img class="quizesimage" src="brain.jpg" alt="">
+    <div>
+        <p class="titulo">Conhecimentos gerais</p>
+    <p class="description">Você se considera um sabe tudo? esse quiz vai te desafiar</p>
+        <span class="status"></span>
+    <button class="selectquiz" id="conhecimento">Iniciar Quiz</button>
+    <input type="checkbox" id="conhecimentocheckbox">
+    </div>
+    
+</div>
+<div class="quizes">
+    <img class="quizesimage" src="math.jpg" alt="">
+    <div>
+        <p class="titulo">Matemática</p>
+    <p class="description">Se você é bom em exatas, esse quiz não deve ser um desafio para você</p>
+        <span class="status"></span>
+    <button class="selectquiz" id="matematicabutton">Iniciar Quiz</button>
+    <input type="checkbox" id="matematicacheckbox">
+    </div>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<div class="quadrodeperguntas" id="quadrodeperguntas">
+
+    <div class="npergunta" id="nperguntadiv">
+        <span id="npergunta"></span>
+        </div>
+
+<div id="pergunta">
+
+</div>
+
+
+<button class="resposta" id="resposta1" name="res" type="submit"></button>
+<button class="resposta" id="resposta2" name="res" type="submit"></button>
+<button class="resposta" id="resposta3" name="res" type="submit"></button>
+<button class="resposta" id="resposta4" name="res" type="submit"></button>
+
+
+</div>
+
+
+
+<footer>
+
+</footer>
+      
+<script src="https://brunovdlc.github.io/Quiz/scripts2.js"></script>
+
+</body>
